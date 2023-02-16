@@ -1,0 +1,472 @@
+/* 
+Theme Name: MySara Web Application UX
+Author: Rizan M
+version: 1.0
+*/
+.container{
+
+			margin: 0 auto;
+			width: 1000px;
+			height: auto;
+
+
+}
+
+.header{
+
+margin: 0 auto;
+height: 60px;
+
+}
+
+.maincontainer{
+	
+	
+	margin: 0 auto;
+	width: 1000px;
+	height: 400px;
+   
+	margin-top: 100px;
+
+
+}
+
+.maincontainerst{
+	margin: 0 auto;
+
+    overflow-y: scroll;
+    max-height:400px;
+	
+	width: 1000px;
+	height: 400px;
+   
+	margin-top: 100px;
+
+
+}
+
+.homeico{
+
+	position: absolute;
+	left:0;
+	right: 0;
+	float: left;
+    text-align: center;
+    top: 18px;
+}
+
+.homeico h3{
+
+
+		margin-top: 3px;
+		font-family: 'Josefin Sans', sans-serif;
+		color: white;
+
+  
+}
+
+.homeico a{
+
+text-decoration: none;
+
+}
+
+.menubox{
+	position: relative;
+	width: 250px;
+	height: 150px;
+
+	margin: 41px;
+	float: left;
+
+}
+.menubox img{
+
+	position: absolute;
+	margin-left: 85px;
+	margin-top: 25px;
+
+
+}
+
+.menubox a{
+
+ 	text-decoration: none;
+
+
+}
+
+.studenttable{
+
+
+	width: 100%;
+	 
+	font-family: 'Josefin Sans', sans-serif;
+	color: white; 
+}
+
+.studenttable tbody{
+ 	
+  	height: 398px;
+  	overflow-y: scroll; /* important */
+
+	font-family: 'Josefin Sans', sans-serif;
+	color: white; 
+
+
+}
+
+
+.studenttable th{
+
+	background: rgba(255,255,255, 0.2);
+	height: 30px;
+
+}
+.studenttable a{
+
+
+	text-decoration: none;
+	color: red;
+}
+
+.menubox h3{
+	
+		font-family: 'Josefin Sans', sans-serif;
+		
+		text-transform: uppercase;
+		text-align: center;
+		color: white;
+		margin-top: 105px;
+		
+}
+
+.header h1{
+
+		position: absolute;
+		right: 0;
+    	top: 0;
+    	left: 0;
+		
+		font-family: 'Lobster', cursive;
+		font-weight: 400;
+		font-size: 100px;
+		color: white;
+		text-align: center;
+}
+
+.blurredback{
+
+		background: rgba(255,255,255, 0.2);
+	
+}
+
+
+.logo{
+
+		width:200px;
+		position: absolute;
+		margin-left: 40px;
+		font-family: 'Lobster', cursive;
+		color: white;
+
+
+}
+
+
+
+
+.loginpanel{
+	
+
+			width: 500px;
+			min-height: 200px;
+			position: relative;
+
+			margin: 0 auto;
+			margin-top: 200px;
+ 			background: rgba(255,255,255, 0.2);
+
+}
+.loginpanel input[type="text"], [type="password"]{
+            display: block;
+            margin : 0 auto;
+            height: 30px;
+            width: 300px;
+
+         	font-family: 'Josefin Sans', sans-serif;
+          	font-size: 20px;
+          	background-color: white;
+          	border: none;
+			padding-left: 5px;
+
+        }
+
+.loginpanel input[type="submit"]{
+           
+	        height: 30px;
+	        width: 100px;
+	        background-color: white;
+	        border: none;
+
+         	font-family: 'Josefin Sans', sans-serif;
+          	font-size: 15px;
+        }   
+
+
+
+.inputlables{
+
+			font-family: 'Josefin Sans', sans-serif;
+          	font-size: 16px;
+          	color: white;
+
+}
+
+.inputlables a{
+
+			color:red;
+
+}
+
+.headings{
+
+
+			position: absolute;
+			margin: 0 auto;
+			font-family: 'Righteous', cursive;
+			font-weight: 300;
+			font-size: 25px;
+			color: white;
+			margin-top: -35px;
+
+}
+
+.registrationbox{
+
+		width: 690px;
+	
+
+		margin: 0 auto;
+
+		background: rgba(255,255,255, 0.2);
+		margin-top: 100px;
+
+	
+
+}
+.registrationbox input[type="text"], [type="email"]{
+            display: block;
+            margin : 0 auto;
+            height: 25px;
+            width: 500px;
+
+         	font-family: 'Josefin Sans', sans-serif;
+          	font-size: 16px;
+          	background-color: white;
+          	border: none;
+          	
+			padding-left: 5px;
+
+        }
+
+input[type="submit"]{
+           
+	        height: 30px;
+	        width: 100px;
+	        background-color: white;
+	        border: none;
+
+         	font-family: 'Josefin Sans', sans-serif;
+          	font-size: 15px;
+        } 
+
+select{
+
+			   height: 25px;
+			   border: none;
+			   font-family: 'Josefin Sans', sans-serif;
+			   font-size: 18px;
+			   bottom: 100%;
+				vertical-align: bottom; 
+}
+
+textarea{
+
+ 			width: 500px;
+			padding-left: 5px;
+			background-color: white;
+          	border: none;
+
+         	font-family: 'Josefin Sans', sans-serif;
+          	font-size: 16px;
+          	resize: none;
+
+}
+
+.user{
+
+	position: relative;
+	float: right;
+	margin-right: 40px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    z-index: 1000;
+
+}
+
+.student-profile-table{
+
+
+padding: 20px;
+
+}
+
+.student-profile-table th, td{
+
+text-align: left;
+font-family: 'Josefin Sans', sans-serif;
+color: White;
+font-weight: 300;
+line-height: 23px;
+
+}
+
+.student-profile-table td{
+
+text-align: left;
+font-family: 'Josefin Sans', sans-serif;
+color: black;
+font-weight: bold;
+line-height: 23px;
+
+}
+
+
+.student-profile-table th{
+
+padding-right: 2em;
+
+}
+
+.profile-pic{
+
+
+	width: 120px;
+	height: 150px;
+	background-color: white;
+	float: right;
+    margin-top: -153px;
+    margin-right: 30px;
+
+}
+
+button{
+
+border: none;
+width: auto;
+height: 30px;
+
+
+}
+
+.resultstable{
+
+
+width: 100%;
+
+margin-top: 20px;
+
+
+}
+
+.resultstable  th{
+
+font-family: 'Josefin Sans', sans-serif;
+
+
+
+}
+   .footer {
+
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			padding: 1rem;
+			color: white;
+			text-align: center;
+			font-family: 'Josefin Sans', sans-serif;
+}
+
+/*----------------------------------------------
+CSS settings for HTML div Exact Center
+------------------------------------------------*/
+.pop{
+
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	display:none;
+	position:fixed;
+	background: rgba(0,0,0, 0.7);
+	overflow:auto;
+
+}
+
+.uploadmarks{
+
+width: 100%;
+padding: 50px;
+
+
+}
+
+.uploadmarks th, td{
+
+
+font-family: 'Josefin Sans', sans-serif;
+text-align: left;
+color: white;
+padding-right: 8px;
+padding-top: 5px;
+
+
+}
+
+.uploadmarks select{
+
+
+width: 320px;
+}
+
+.uploadmarks input[type="sumbit"],[type="reset"]{
+
+		width: auto;
+		height: 30px;
+		background-color: white;
+		border: none;
+		font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.uploadmarks input[type="file"]{
+
+	
+		border: none;
+		font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+.hel{
+
+	position:absolute;
+	left:40%;
+	top:20%;
+	
+	background-color: white;
+}

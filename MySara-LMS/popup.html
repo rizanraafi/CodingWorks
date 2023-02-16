@@ -1,0 +1,50 @@
+<html>
+<head>
+	<title>Popup Testing</title>
+
+<link rel="stylesheet" href="style.css" />
+
+
+</head>
+
+<script>
+
+function div_show() {
+document.getElementById('popu').style.display = "block";
+}
+//Function to Hide Popup
+function div_hide(){
+document.getElementById('popu').style.display = "none";
+}
+
+</script>
+
+<body id="body" style="overflow:hidden; background-image:url(images/sl.jpg)">
+
+	<div class="pop" id="popu">
+
+		
+        <div class="hel">
+        	<form method="post" action="">
+          <h3>Login information</h3>
+          <label for="usrnm">Username:</label>
+          <input type="text" name="user" id="usrnm" placeholder="Username">
+          <label for="pswd" >Password:</label>
+          <input type="password" name="passw" id="pswd" placeholder="Password">
+          <label for="log">Keep me logged in</label>
+          <input type="checkbox" name="login" id="log" value="1" data-mini="true">
+          <input type="submit" data-inline="true" value="Log in">
+
+          <input type="button" onclick="div_hide()" value="Close"/>
+             </form>
+
+        </div>
+
+	</div>
+
+	<button id="popup" onclick="div_show()">Popup</button>
+
+
+
+</body>
+</html>
